@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  php:
+    image: docker.pkg.github.com/upstain-me/docker/upstain-php:1.0.0
+    working_dir: /app
+    volumes:
+      - ./:/app

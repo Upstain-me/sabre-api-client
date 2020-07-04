@@ -10,6 +10,6 @@ class App
     public function method(): int
     {
         $prop = new Prop(2);
-        return $prop->getTest();
+        return $prop->getTest() + 1;
     }
 }

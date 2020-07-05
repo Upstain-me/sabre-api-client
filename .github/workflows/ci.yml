@@ -1,0 +1,16 @@
+name: Greet Everyone
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches:
+      - 0.0.x
+
+jobs:
+  build:
+    # Job name is Greeting
+    name: Greeting
+    # This job runs on Linux
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the greeting's time
+        run: php -v

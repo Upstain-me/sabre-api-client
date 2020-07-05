@@ -3,7 +3,7 @@ name: Greet Everyone
 on:
   push:
     branches:
-      - 0.0.x
+      - master
 
 jobs:
   build:

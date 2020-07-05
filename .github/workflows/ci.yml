@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - 0.x.x
 
 jobs:
   build:
@@ -13,4 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo the greeting's time
-        run: php -v
+        run: ls -la

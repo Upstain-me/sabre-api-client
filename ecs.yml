@@ -6,3 +6,7 @@ parameters:
   paths:
     - 'src'
     - 'tests'
+
+  exclude_files:
+    # generated files
+    - 'tests/_support/_generated/*'

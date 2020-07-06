@@ -15,6 +15,9 @@ class DescriptiveInfoRef
 
     private Descriptions $descriptions;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

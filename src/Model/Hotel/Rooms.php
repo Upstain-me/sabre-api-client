@@ -6,6 +6,9 @@ class Rooms
 {
     private Room $room;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

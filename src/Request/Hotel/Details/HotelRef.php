@@ -6,6 +6,9 @@ use Upstain\SabreApiClient\Model\Hotel\Hotel;
 
 class HotelRef extends Hotel
 {
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

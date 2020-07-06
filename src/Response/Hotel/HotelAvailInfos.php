@@ -14,7 +14,7 @@ class HotelAvailInfos
     private array $hotelAvailInfo;
 
     /**
-     * HotelAvailInfos constructor.
+     * @param array<string, mixed> $response
      */
     public function __construct(array $response)
     {

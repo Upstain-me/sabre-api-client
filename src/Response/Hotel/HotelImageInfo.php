@@ -22,7 +22,7 @@ class HotelImageInfo
     private array $additionalInfo;
 
     /**
-     * @param array $data
+     * @param array<string, mixed> $data
      */
     public function __construct(array $data)
     {

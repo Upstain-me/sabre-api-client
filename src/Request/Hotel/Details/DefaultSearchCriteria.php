@@ -14,6 +14,9 @@ class DefaultSearchCriteria implements DefaultSearchCriteriaInterface
 {
     private SearchCriteria $searchCriteria;
 
+    /**
+     * {@inheritDoc}
+     */
     public function build(): array
     {
         $this->searchCriteria = new SearchCriteria();
@@ -66,12 +69,17 @@ class DefaultSearchCriteria implements DefaultSearchCriteriaInterface
         return $this->searchCriteria->toArray();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     public function override(SearchInputInterface $searchInput): array
     {
         $searchCriteria = $this->searchCriteria->toArray();
 
-        if ($searchInput->getHotelCode()) {
-            $searchCriteria['HotelRefs']['HotelRef']['HotelCode'] = $searchInput->getHotelCode();
+        if ($searchInput instanceof SearchDetailInput) {
+            if ($searchInput->getHotelCode()) {
+                $searchCriteria['HotelRefs']['HotelRef']['HotelCode'] = $searchInput->getHotelCode();
+            }
         }
 
         return $searchCriteria;

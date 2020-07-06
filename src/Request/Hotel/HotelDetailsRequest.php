@@ -22,6 +22,9 @@ class HotelDetailsRequest
     public const UPSTAIN_SABRE_HOTEL_DETAILS_CACHE = 'UPSTAIN_SABRE_HOTEL_DETAILS_CACHE';
     private Sabre $sabreObject;
 
+    /**
+     * @var array<string, mixed>
+     */
     private array $requestBody;
 
     /**
@@ -121,8 +124,8 @@ class HotelDetailsRequest
             TransportExceptionInterface $e
         ) {
             throw SabreException::authError($e);
-        } catch (\JsonException $e) {
-            // TODO proper error handling.
+        } catch (\JsonException $jsonException) {
+            throw SabreException::jsonError($jsonException);
         }
     }
 }

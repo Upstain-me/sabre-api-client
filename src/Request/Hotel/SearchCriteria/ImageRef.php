@@ -7,6 +7,9 @@ class ImageRef
     private string $type = 'MEDIUM';
     private string $languageCode = 'EN';
 
+    /**
+     * @return array<string, string>
+     */
     public function toArray(): array
     {
         return [

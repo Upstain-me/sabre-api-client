@@ -15,8 +15,8 @@ class SearchInput implements SearchInputInterface
         return \implode(
             '_',
             [
-                'startDate-' . $this->startDate->getTimestamp(),
-                'endDate-' . $this->endDate->getTimestamp(),
+                'startDate-' . ($this->startDate ? $this->startDate->getTimestamp() : 'null'),
+                'endDate-' . ($this->endDate ? $this->endDate->getTimestamp() : 'null'),
                 'airportCode-' . $this->airportCode,
             ]
         );

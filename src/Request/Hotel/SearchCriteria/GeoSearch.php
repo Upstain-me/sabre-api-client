@@ -6,6 +6,9 @@ class GeoSearch
 {
     private GeoRef $geoRef;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

@@ -18,6 +18,9 @@ class SearchCriteria
 
     private HotelContentRef $hotelContentRef;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

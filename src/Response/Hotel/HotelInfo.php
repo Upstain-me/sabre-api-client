@@ -41,21 +41,21 @@ class HotelInfo extends Hotel
     private ?array $propertyTypeInfo = null;
 
     /**
-     * @param array $hotelInfo
+     * @param array<string, mixed> $data
      */
-    public function __construct(array $hotelInfo)
+    public function __construct(array $data)
     {
-        foreach ($hotelInfo as $key => $info) {
+        foreach ($data as $key => $info) {
             if (!\in_array($key, ['LocationInfo', 'Amenities', 'PropertyTypeInfo'])) {
                 $this->{\lcfirst($key)} = $info;
             }
         }
-        $this->locationInfo = new LocationInfo($hotelInfo['LocationInfo']);
-        foreach ($hotelInfo['Amenities']['Amenity'] as $amenity) {
+        $this->locationInfo = new LocationInfo($data['LocationInfo']);
+        foreach ($data['Amenities']['Amenity'] as $amenity) {
             $this->amenities[] = new Amenity($amenity);
         }
-        if (isset($hotelInfo['PropertyTypeInfo']['PropertyType'] )) {
-            foreach ($hotelInfo['PropertyTypeInfo']['PropertyType'] as $propertyType) {
+        if (isset($data['PropertyTypeInfo']['PropertyType'] )) {
+            foreach ($data['PropertyTypeInfo']['PropertyType'] as $propertyType) {
                 $this->propertyTypeInfo[] = new PropertyType($propertyType);
             }
         }

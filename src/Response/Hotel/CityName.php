@@ -8,8 +8,7 @@ class CityName
     private string $value;
 
     /**
-     * @param string $cityCode
-     * @param string $value
+     * @param array<string, string> $data
      */
     public function __construct(array $data)
     {

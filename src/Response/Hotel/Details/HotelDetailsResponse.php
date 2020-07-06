@@ -4,10 +4,13 @@ namespace Upstain\SabreApiClient\Response\Hotel\Details;
 
 class HotelDetailsResponse
 {
+    /**
+     * @var array<string, mixed>
+     */
     private array $rawResponse;
 
     /**
-     * @param array $rawResponse
+     * @param array<string, mixed> $rawResponse
      */
     public function __construct(array $rawResponse)
     {
@@ -15,13 +18,16 @@ class HotelDetailsResponse
     }
 
     /**
-     * @return array
+     * @return array<string, mixed>
      */
     public function getRawResponse(): array
     {
         return $this->rawResponse;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function fromRawResponse(): array
     {
         // TODO modelling needs to be done.

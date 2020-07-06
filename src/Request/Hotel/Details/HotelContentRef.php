@@ -7,6 +7,9 @@ class HotelContentRef
     private DescriptiveInfoRef $descriptiveInfoRef;
     private MediaRef $mediaRef;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

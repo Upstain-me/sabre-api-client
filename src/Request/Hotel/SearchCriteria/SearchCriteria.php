@@ -16,6 +16,9 @@ class SearchCriteria
     private HotelPref $hotelPref;
     private ImageRef $imageRef;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

@@ -8,6 +8,9 @@ class RefPoint
     private string $valueContext = 'CODE';
     private string $refPointType = '6';
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

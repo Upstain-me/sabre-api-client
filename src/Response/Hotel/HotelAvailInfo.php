@@ -15,8 +15,8 @@ class HotelAvailInfo
     private ?HotelImageInfo $hotelImageInfo;
 
     /**
-     * @param array $hotelInfo
-     * @param array $hotelImageInfo
+     * @param array<string, mixed> $hotelInfo
+     * @param array<string, mixed> $hotelImageInfo
      */
     public function __construct(array $hotelInfo, ?array $hotelImageInfo = null)
     {
@@ -33,9 +33,9 @@ class HotelAvailInfo
     }
 
     /**
-     * @return HotelImageInfo
+     * @return HotelImageInfo|null
      */
-    public function getHotelImageInfo(): HotelImageInfo
+    public function getHotelImageInfo(): ?HotelImageInfo
     {
         return $this->hotelImageInfo;
     }

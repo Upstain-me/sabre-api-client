@@ -1,10 +1,6 @@
 name: Upstain PHP Code Quality Workflow
 # This workflow is triggered on pushes to the repository.
-on:
-  push:
-    branches:
-      - master
-      - 0.x.x
+on: [push]
 
 jobs:
   quality:

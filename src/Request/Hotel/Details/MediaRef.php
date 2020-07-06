@@ -4,6 +4,9 @@ namespace Upstain\SabreApiClient\Request\Hotel\Details;
 
 class MediaRef
 {
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

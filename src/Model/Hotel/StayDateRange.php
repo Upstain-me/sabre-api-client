@@ -7,6 +7,9 @@ class StayDateRange
     private \DateTimeInterface $startDate;
     private \DateTimeInterface $endDate;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

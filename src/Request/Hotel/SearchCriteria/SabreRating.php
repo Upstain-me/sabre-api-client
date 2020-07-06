@@ -7,7 +7,10 @@ class SabreRating
     private string $min;
     private string $max;
 
-    public function toArray()
+    /**
+     * @return array<string, mixed>
+     */
+    public function toArray(): array
     {
         return [
             'Min' => $this->min,

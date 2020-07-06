@@ -7,6 +7,9 @@ class Amenity
     private string $code;
     private string $description;
 
+    /**
+     * @param array<string, string> $data
+     */
     public function __construct(array $data)
     {
         foreach ($data as $key => $info) {

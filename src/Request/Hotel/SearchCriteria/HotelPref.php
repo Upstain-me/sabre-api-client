@@ -6,6 +6,9 @@ class HotelPref
 {
     private SabreRating $saberRating;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

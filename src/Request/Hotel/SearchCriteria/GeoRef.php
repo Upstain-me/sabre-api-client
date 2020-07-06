@@ -8,6 +8,9 @@ class GeoRef
     private string $unitOfMeasure = 'MI';
     private RefPoint $refPoint;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [

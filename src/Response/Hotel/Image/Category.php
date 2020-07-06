@@ -8,7 +8,7 @@ class Category
     private ?Description $description;
 
     /**
-     * @param array $data
+     * @param array<string, mixed> $data
      */
     public function __construct(array $data)
     {

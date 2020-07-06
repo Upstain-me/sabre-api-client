@@ -10,7 +10,7 @@ class HotelAvailabilityResponse
     private $rawResponse;
 
     /**
-     * @param $rawResponse
+     * @param mixed $rawResponse
      */
     public function __construct($rawResponse)
     {

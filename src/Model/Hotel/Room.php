@@ -4,10 +4,13 @@ namespace Upstain\SabreApiClient\Model\Hotel;
 
 class Room
 {
+    /**
+     * @var array<int, mixed>
+     */
     private array $data;
 
     /**
-     * @return array
+     * @return array<int, mixed>
      */
     public function getData(): array
     {
@@ -15,7 +18,7 @@ class Room
     }
 
     /**
-     * @param array $data
+     * @param array<int, mixed> $data
      */
     public function setData(array $data): void
     {

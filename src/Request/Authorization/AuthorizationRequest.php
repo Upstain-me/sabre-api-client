@@ -2,9 +2,6 @@
 
 namespace Upstain\SabreApiClient\Request\Authorization;
 
-use Upstain\SabreApiClient\Exception\SabreException;
-use Upstain\SabreApiClient\Response\Authorization\AuthorizationResponse;
-use Upstain\SabreApiClient\Sabre;
 use Psr\Cache\CacheItemInterface;
 use Psr\Cache\InvalidArgumentException;
 use Symfony\Component\HttpClient\HttpClient;
@@ -14,6 +11,9 @@ use Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
+use Upstain\SabreApiClient\Exception\SabreException;
+use Upstain\SabreApiClient\Response\Authorization\AuthorizationResponse;
+use Upstain\SabreApiClient\Sabre;
 
 class AuthorizationRequest
 {
@@ -38,7 +38,7 @@ class AuthorizationRequest
     {
         try {
             return $cache ?
-                $cache->get(self::UPSTAIN_SABRE_AUTH_CACHE, fn(CacheItemInterface $item) => $this->cacheCallback($item)) :
+                $cache->get(self::UPSTAIN_SABRE_AUTH_CACHE, fn (CacheItemInterface $item) => $this->cacheCallback($item)) :
                 $this->doRequest();
         } catch (InvalidArgumentException $e) {
             throw SabreException::authCacheError($e);

@@ -10,7 +10,7 @@ class Description
     private ?array $text;
 
     /**
-     * @param array $data
+     * @param array<string, mixed> $data
      */
     public function __construct(array $data)
     {

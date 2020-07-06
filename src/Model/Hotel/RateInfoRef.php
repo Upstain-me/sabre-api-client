@@ -15,6 +15,9 @@ class RateInfoRef
 
     private ?RatePlanCandidates $ratePlanCandidates = null;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         $array = [

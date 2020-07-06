@@ -5,13 +5,14 @@ namespace Upstain\SabreApiClient\Model;
 interface DefaultSearchCriteriaInterface
 {
     /**
-     * @return array
+     * @return array<string, mixed>
      */
     public function build(): array;
 
     /**
      * @param SearchInputInterface $searchInput
-     * @return array
+     *
+     * @return array<string, mixed>
      */
     public function override(SearchInputInterface $searchInput): array;
 }

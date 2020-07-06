@@ -8,7 +8,7 @@ class TextDescriptionItem
     private ?string $value;
 
     /**
-     * @param array $data
+     * @param array<string, mixed> $data
      */
     public function __construct(array $data)
     {

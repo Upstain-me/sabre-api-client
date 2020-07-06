@@ -13,7 +13,7 @@ class Address
     private CountryName $countryName;
 
     /**
-     * @param array $data
+     * @param array<string, mixed> $data
      */
     public function __construct(array $data)
     {

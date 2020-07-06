@@ -11,7 +11,7 @@ class LocationInfo
     private Contact $contact;
 
     /**
-     * @param array $data
+     * @param array<string, mixed> $data
      */
     public function __construct(array $data)
     {

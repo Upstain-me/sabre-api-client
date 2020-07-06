@@ -2,6 +2,7 @@
 
 namespace Upstain\SabreApiClient\Tests\Integration;
 
+use Codeception\Test\Unit;
 use Prophecy\Argument;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Symfony\Contracts\Cache\CacheInterface;
@@ -9,7 +10,6 @@ use Upstain\SabreApiClient\Request\Hotel\Details\SearchDetailInput;
 use Upstain\SabreApiClient\Request\Hotel\SearchCriteria\SearchInput;
 use Upstain\SabreApiClient\Response\Authorization\AuthorizationResponse;
 use Upstain\SabreApiClient\Sabre;
-use Codeception\Test\Unit;
 
 class SabreApiTest extends Unit
 {

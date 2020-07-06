@@ -16,6 +16,9 @@ class DefaultSearchCriteria implements DefaultSearchCriteriaInterface
      */
     private SearchCriteria $searchCriteria;
 
+    /**
+     * {@inheritDoc}
+     */
     public function build(): array
     {
         // GeoSearch
@@ -73,20 +76,27 @@ class DefaultSearchCriteria implements DefaultSearchCriteriaInterface
         return $this->searchCriteria->toArray();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     public function override(SearchInputInterface $searchInput): array
     {
         $searchCriteria = $this->searchCriteria->toArray();
 
-        if ($searchInput->getStartDate()) {
-            $searchCriteria['RateInfoRef']['StayDateRange']['StartDate'] = $searchInput->getStartDate()->format('Y-m-d');
-        }
+        if ($searchInput instanceof SearchInput) {
+            $startDate = $searchInput->getStartDate();
+            $endDate = $searchInput->getEndDate();
+            if ($startDate) {
+                $searchCriteria['RateInfoRef']['StayDateRange']['StartDate'] = $startDate->format('Y-m-d');
+            }
 
-        if ($searchInput->getEndDate()) {
-            $searchCriteria['RateInfoRef']['StayDateRange']['EndDate'] = $searchInput->getEndDate()->format('Y-m-d');
-        }
+            if ($endDate) {
+                $searchCriteria['RateInfoRef']['StayDateRange']['EndDate'] = $endDate->format('Y-m-d');
+            }
 
-        if ($searchInput->getAirportCode()) {
-            $searchCriteria['GeoSearch']['GeoRef']['RefPoint']['Value'] = $searchInput->getAirportCode();
+            if ($searchInput->getAirportCode()) {
+                $searchCriteria['GeoSearch']['GeoRef']['RefPoint']['Value'] = $searchInput->getAirportCode();
+            }
         }
 
         return $searchCriteria;

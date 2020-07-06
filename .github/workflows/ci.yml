@@ -32,3 +32,6 @@ jobs:
 
       - name: Static Type Analysis
         run: vendor/bin/phpstan analyse src --level 8
+
+      - name: Tests
+        run: vendor/bin/codecept run

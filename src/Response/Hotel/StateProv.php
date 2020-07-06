@@ -7,6 +7,9 @@ class StateProv
     private string $stateCode;
     private string $value;
 
+    /**
+     * @param array<string, string> $data
+     */
     public function __construct(array $data)
     {
         $this->stateCode = $data['StateCode'];

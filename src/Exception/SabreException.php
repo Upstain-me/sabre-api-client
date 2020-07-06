@@ -2,7 +2,9 @@
 
 namespace Upstain\SabreApiClient\Exception;
 
-class SabreException extends \Exception
+use Throwable;
+
+final class SabreException extends \Exception
 {
     public static function authError(\Throwable $e): SabreException
     {
@@ -10,7 +12,7 @@ class SabreException extends \Exception
         return new static($message, $e->getCode());
     }
 
-    public static function authCacheError(\Throwable $e)
+    public static function authCacheError(\Throwable $e): SabreException
     {
         $message = 'Sabre Auth cache error: ' . $e->getMessage();
 

@@ -1,4 +1,4 @@
-name: Greet Everyone
+name: Upstain PHP Code Quality Workflow
 # This workflow is triggered on pushes to the repository.
 on:
   push:
@@ -31,7 +31,9 @@ jobs:
         run: composer install
 
       - name: Tests
-        run: vendor/bin/codecept run
+        env:
+          SABRE_API_USER_SECRET: ${{ secrets.SABRE_API_USER_SECRET }}
+        run: cp .env .env.local && vendor/bin/codecept run
 
       - name: Static Type Analysis
         run: vendor/bin/phpstan analyse src --level 8

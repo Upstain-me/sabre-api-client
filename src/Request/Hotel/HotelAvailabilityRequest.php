@@ -2,11 +2,6 @@
 
 namespace Upstain\SabreApiClient\Request\Hotel;
 
-use Upstain\SabreApiClient\Exception\SabreException;
-use Upstain\SabreApiClient\Request\Hotel\SearchCriteria\DefaultSearchCriteria;
-use Upstain\SabreApiClient\Request\Hotel\SearchCriteria\SearchInput;
-use Upstain\SabreApiClient\Response\Hotel\HotelAvailabilityResponse;
-use Upstain\SabreApiClient\Sabre;
 use Psr\Cache\CacheItemInterface;
 use Psr\Cache\InvalidArgumentException;
 use Symfony\Component\HttpClient\HttpClient;
@@ -16,6 +11,11 @@ use Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
+use Upstain\SabreApiClient\Exception\SabreException;
+use Upstain\SabreApiClient\Request\Hotel\SearchCriteria\DefaultSearchCriteria;
+use Upstain\SabreApiClient\Request\Hotel\SearchCriteria\SearchInput;
+use Upstain\SabreApiClient\Response\Hotel\HotelAvailabilityResponse;
+use Upstain\SabreApiClient\Sabre;
 
 class HotelAvailabilityRequest
 {
@@ -62,7 +62,7 @@ class HotelAvailabilityRequest
                             $input,
                         ]
                     ),
-                    fn(CacheItemInterface $item) => $this->cacheCallback($item)
+                    fn (CacheItemInterface $item) => $this->cacheCallback($item)
                 ) :
                 $this->doRequest();
         } catch (InvalidArgumentException $e) {
@@ -105,7 +105,7 @@ class HotelAvailabilityRequest
         try {
             $response = $client->request(
                 'POST',
-                $this->sabreObject->getApiBaseUrl().'/v2.1.0/get/hotelavail',
+                $this->sabreObject->getApiBaseUrl() . '/v2.1.0/get/hotelavail',
                 [
                     'body' => \json_encode($this->requestBody, JSON_THROW_ON_ERROR),
                 ],

@@ -2,16 +2,16 @@
 
 namespace Upstain\SabreApiClient\Tests\Unit\Details;
 
+use Codeception\Test\Unit;
 use Upstain\SabreApiClient\Request\Hotel\Details\DefaultSearchCriteria;
 use Upstain\SabreApiClient\Request\Hotel\Details\SearchDetailInput;
-use Codeception\Test\Unit;
 
 class DefaultSearchCriteriaTest extends Unit
 {
     public function testBuild()
     {
         $expected = \json_decode(
-            \file_get_contents(__DIR__.'/../../_data/detailsRequest.json'),
+            \file_get_contents(__DIR__ . '/../../_data/detailsRequest.json'),
             true,
             512,
             JSON_THROW_ON_ERROR

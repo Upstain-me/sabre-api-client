@@ -54,7 +54,7 @@ class HotelInfo extends Hotel
         foreach ($data['Amenities']['Amenity'] as $amenity) {
             $this->amenities[] = new Amenity($amenity);
         }
-        if (isset($data['PropertyTypeInfo']['PropertyType'] )) {
+        if (isset($data['PropertyTypeInfo']['PropertyType'])) {
             foreach ($data['PropertyTypeInfo']['PropertyType'] as $propertyType) {
                 $this->propertyTypeInfo[] = new PropertyType($propertyType);
             }

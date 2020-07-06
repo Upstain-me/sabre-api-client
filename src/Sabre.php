@@ -2,6 +2,7 @@
 
 namespace Upstain\SabreApiClient;
 
+use Symfony\Contracts\Cache\CacheInterface;
 use Upstain\SabreApiClient\Request\Authorization\AuthorizationRequest;
 use Upstain\SabreApiClient\Request\Hotel\Details\SearchDetailInput;
 use Upstain\SabreApiClient\Request\Hotel\HotelAvailabilityRequest;
@@ -10,7 +11,6 @@ use Upstain\SabreApiClient\Request\Hotel\SearchCriteria\SearchInput;
 use Upstain\SabreApiClient\Response\Authorization\AuthorizationResponse;
 use Upstain\SabreApiClient\Response\Hotel\Details\HotelDetailsResponse;
 use Upstain\SabreApiClient\Response\Hotel\HotelAvailabilityResponse;
-use Symfony\Contracts\Cache\CacheInterface;
 
 class Sabre
 {

@@ -1,0 +1,3042 @@
+{
+  "GetHotelAvailRS": {
+    "ApplicationResults": {
+      "status": "Complete",
+      "Success": [
+        {
+          "timeStamp": "2020-07-01T05:04:01.566-05:00"
+        }
+      ],
+      "Warning": [
+        {
+          "type": "Application",
+          "timeStamp": "2020-07-01T05:04:01.477-05:00",
+          "SystemSpecificResults": [
+            {
+              "Message": [
+                {
+                  "code": "ERR.5099",
+                  "value": "Invalid PCC. Length of PCC is greater than 4 characters."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "HotelAvailInfos": {
+      "OffSet": 1,
+      "MaxSearchResults": 359,
+      "ShopKey": "cbf10a4c-e1c0-4cc0-b6f3-88622b5c99ee",
+      "HotelAvailInfo": [
+        {
+          "HotelInfo": {
+            "HotelCode": "100123982",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Grand Hyatt Dfw",
+            "ChainCode": "HY",
+            "ChainName": "Hyatt Hotels And Resorts",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 0.16,
+            "Direction": "NW",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/hy/HY.png",
+            "SabreRating": "4.0",
+            "Ordinal": 1,
+            "LocationInfo": {
+              "Latitude": "32.897506",
+              "Longitude": "-97.043246",
+              "Address": {
+                "AddressLine1": "2337 South International Pkwy",
+                "AddressLine2": "P O Box 619045",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "DALLAS"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75261-9045",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-972-973-1234",
+                "Fax": "1-972-973-1299"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "165",
+                  "Description": "Lounges/bars"
+                },
+                {
+                  "Code": "168",
+                  "Description": "Onsite laundry"
+                },
+                {
+                  "Code": "179",
+                  "Description": "Wireless internet connection in public areas"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2001",
+                  "Description": "Eco Friendly"
+                },
+                {
+                  "Code": "2005",
+                  "Description": "Minibar"
+                },
+                {
+                  "Code": "2007",
+                  "Description": "In Room Safe"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "22",
+                  "Description": "Concierge desk"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "258",
+                  "Description": "ADA accessible"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "261",
+                  "Description": "High speed wireless"
+                },
+                {
+                  "Code": "289",
+                  "Description": "Children programs"
+                },
+                {
+                  "Code": "310",
+                  "Description": "Hypoallergenic rooms"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking"
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "92",
+                  "Description": "Translation services"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "9",
+                  "Description": "Conference center"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "356471",
+              "Ordinal": 0,
+              "Format": "JPG",
+              "LastModifedDate": "2016-04-09",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/65371/gadxgnjkq0pft4qwcgdl.jpg",
+                "Type": "MEDIUM",
+                "Height": 400,
+                "Width": 400
+              },
+              "Category": {
+                "CategoryCode": 1,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "en",
+                      "value": "Exterior view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Exterior"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100059388",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Hyatt Regency Dfw",
+            "ChainCode": "HY",
+            "ChainName": "Hyatt Hotels And Resorts",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 0.31,
+            "Direction": "S",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/hy/HY.png",
+            "SabreRating": "4.0",
+            "Ordinal": 2,
+            "LocationInfo": {
+              "Latitude": "32.891595",
+              "Longitude": "-97.041446",
+              "Address": {
+                "AddressLine1": "2334 North International Pkwy",
+                "AddressLine2": "Po Box 619014",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Fort Worth"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75261",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-972-4531234",
+                "Fax": "1-972-4568668"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "165",
+                  "Description": "Lounges/bars"
+                },
+                {
+                  "Code": "179",
+                  "Description": "Wireless internet connection in public areas"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2001",
+                  "Description": "Eco Friendly"
+                },
+                {
+                  "Code": "2003",
+                  "Description": "Rooms with Balcony"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "215",
+                  "Description": "Exhibition/convention floor"
+                },
+                {
+                  "Code": "22",
+                  "Description": "Concierge desk"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "258",
+                  "Description": "ADA accessible"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "261",
+                  "Description": "High speed wireless"
+                },
+                {
+                  "Code": "34",
+                  "Description": "Executive floor"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "92",
+                  "Description": "Translation services"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "9",
+                  "Description": "Conference center"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "465261",
+              "Ordinal": 0,
+              "Format": "JPG",
+              "LastModifedDate": "2016-04-09",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/31378/tu3noexogudkxww6ekzd.jpg",
+                "Type": "MEDIUM",
+                "Height": 400,
+                "Width": 400
+              },
+              "Category": {
+                "CategoryCode": 3,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "en",
+                      "value": "Pool view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Pool"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100117134",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Idearc Hotel And Conf Center",
+            "ChainCode": "YX",
+            "ChainName": "SynXis",
+            "BrandCode": "10634",
+            "BrandName": "SynXis",
+            "Distance": 1.55,
+            "Direction": "W",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/yx/YX.png",
+            "SabreRating": "4.0",
+            "Ordinal": 3,
+            "LocationInfo": {
+              "Latitude": "32.90469",
+              "Longitude": "-97.065859",
+              "Address": {
+                "AddressLine1": "2200 West Airfield Drive",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Dallas"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75261",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "972-453-0600",
+                "Fax": "972-453-0292"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "233",
+                  "Description": "Tennis court"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking"
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100083422",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Homewood Stes Irving Dfw Arpt",
+            "ChainCode": "HG",
+            "ChainName": "Homewood Suites By Hilton",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 2.05,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/hg/HG.png",
+            "SabreRating": "3.0",
+            "Ordinal": 4,
+            "LocationInfo": {
+              "Latitude": "32.91805",
+              "Longitude": "-97.0172",
+              "Address": {
+                "AddressLine1": "7800 Dulles Dr",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-972-929-2202",
+                "Fax": "1-972-929-2251"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "233",
+                  "Description": "Tennis court"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "262",
+                  "Description": "Kitchenette"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "54",
+                  "Description": "Indoor pool"
+                },
+                {
+                  "Code": "55",
+                  "Description": "Hot Tub"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "1",
+                  "Description": "All suite"
+                },
+                {
+                  "Code": "13",
+                  "Description": "Extended stay"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100065032",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Best Western Dfw Airport Stes",
+            "ChainCode": "BW",
+            "ChainName": "Best Western Intl",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 2.1,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/3417/logo_bw_1.png",
+            "SabreRating": "3.0",
+            "Ordinal": 5,
+            "LocationInfo": {
+              "Latitude": "32.919673",
+              "Longitude": "-97.01824",
+              "Address": {
+                "AddressLine1": "5050 West John Carpenter Frwy",
+                "AddressLine2": "Irving Tx Us 75063",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-972-8700530",
+                "Fax": "1-972-8718470"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "1",
+                  "Description": "All suite"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100099502",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Super 8 Irving Dfw Apt North",
+            "ChainCode": "OZ",
+            "ChainName": "Super 8",
+            "BrandCode": "10003",
+            "BrandName": "Super 8",
+            "Distance": 2.18,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/oz/OZ.png",
+            "SabreRating": "3.0",
+            "Ordinal": 6,
+            "LocationInfo": {
+              "Latitude": "32.917001",
+              "Longitude": "-97.01285",
+              "Address": {
+                "AddressLine1": "4770 W. John Carpenter Frwy",
+                "AddressLine2": "Irving Tx Us 75063",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-214-4419000",
+                "Fax": "1-214-4419022"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "168",
+                  "Description": "Onsite laundry"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "1",
+                  "Description": "All suite"
+                },
+                {
+                  "Code": "27",
+                  "Description": "Motel"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "1040115",
+              "Ordinal": 0,
+              "Format": "JPG",
+              "LastModifedDate": "2016-04-13",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/51724/fafzz09ifsi216bxjmys.jpg",
+                "Type": "MEDIUM",
+                "Height": 257,
+                "Width": 338
+              },
+              "Category": {
+                "CategoryCode": 1,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "en",
+                      "value": "Exterior view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Welcome to the Super 8 Irving Airport"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100032564",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Comfort Suites Dfw Airport",
+            "ChainCode": "CZ",
+            "ChainName": "Comfort Suites",
+            "BrandCode": "10142",
+            "BrandName": "Comfort Suites",
+            "Distance": 2.21,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/cz/CZ.png",
+            "SabreRating": "3.0",
+            "Ordinal": 7,
+            "LocationInfo": {
+              "Latitude": "32.916415",
+              "Longitude": "-97.01169",
+              "Address": {
+                "AddressLine1": "4700 W John Carpenter Fwy",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "972-929-9097",
+                "Fax": "972-929-9247"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2004",
+                  "Description": "Local Calls"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "55",
+                  "Description": "Hot Tub"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "1",
+                  "Description": "All suite"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "1170611",
+              "Ordinal": 1,
+              "Format": "JPG",
+              "LastModifedDate": "2016-10-08",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/1802/egk6cpevaoqsombwtqg5.jpg",
+                "Type": "MEDIUM",
+                "Height": 265,
+                "Width": 400
+              },
+              "Category": {},
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {}
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100672324",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Marriott Dfw Airport North",
+            "ChainCode": "MC",
+            "ChainName": "Marriott Hotels",
+            "BrandCode": "10002",
+            "BrandName": "Marriott Hotels",
+            "Distance": 2.24,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/mc/MC.png",
+            "SabreRating": "4.0",
+            "Ordinal": 8,
+            "LocationInfo": {
+              "Latitude": "32.922829",
+              "Longitude": "-97.01931",
+              "Address": {
+                "AddressLine1": "8440 Freeport Pkwy",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "972-929-8800",
+                "Fax": "972-929-6501"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2004",
+                  "Description": "Local Calls"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "215",
+                  "Description": "Exhibition/convention floor"
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "34",
+                  "Description": "Executive floor"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "54",
+                  "Description": "Indoor pool"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "20299864",
+              "Ordinal": 1,
+              "Format": "JPG",
+              "LastModifedDate": "2019-06-26",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/1208/bnwyemonyq1dabc3zyo3.jpg",
+                "Type": "MEDIUM",
+                "Height": 100,
+                "Width": 150
+              },
+              "Category": {},
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "FALSE"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100028168",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Holiday Inn Exp Stes Airport N",
+            "ChainCode": "HI",
+            "ChainName": "Holiday Inn",
+            "BrandCode": "10001",
+            "BrandName": "Holiday Inn",
+            "Distance": 2.24,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/hi/HI.png",
+            "SabreRating": "3.0",
+            "Ordinal": 9,
+            "LocationInfo": {
+              "Latitude": "32.915726",
+              "Longitude": "-97.010273",
+              "Address": {
+                "AddressLine1": "4550 W John Carpenter Freeway",
+                "AddressLine2": "Irving Tx Us 75063",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-972-929-4499",
+                "Fax": "1-972-929-0774"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2004",
+                  "Description": "Local Calls"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "215",
+                  "Description": "Exhibition/convention floor"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "233",
+                  "Description": "Tennis court"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "9",
+                  "Description": "Conference center"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "1171949",
+              "Ordinal": 1,
+              "Format": "JPG",
+              "LastModifedDate": "2016-10-09",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/15870/nfdkhtyv9kfzh5kmdfqh.jpg",
+                "Type": "MEDIUM",
+                "Height": 400,
+                "Width": 400
+              },
+              "Category": {},
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Exterior View"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100096052",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Sheraton Grand Hotel Dfw",
+            "ChainCode": "SI",
+            "ChainName": "Sheraton Hotels",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 2.28,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/si/SI.png",
+            "SabreRating": "4.0",
+            "Ordinal": 10,
+            "LocationInfo": {
+              "Latitude": "32.913849",
+              "Longitude": "-97.007909",
+              "Address": {
+                "AddressLine1": "4440 West John Carpenter Frwy",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-972-929-8400",
+                "Fax": "1-972-929-4885"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "473673",
+              "Ordinal": 3,
+              "Format": "JPG",
+              "LastModifedDate": "2016-04-09",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/499/ij4csdkjvjuxu0vyczrj.jpg",
+                "Type": "MEDIUM",
+                "Height": 400,
+                "Width": 400
+              },
+              "Category": {
+                "CategoryCode": 6,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "en",
+                      "value": "Guest room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Double Guest Room"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100086854",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Westin Dfw Airport",
+            "ChainCode": "WI",
+            "ChainName": "Westin Hotels And Resorts",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 2.38,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/wi/WI.png",
+            "SabreRating": "4.0",
+            "Ordinal": 11,
+            "LocationInfo": {
+              "Latitude": "32.91658",
+              "Longitude": "-97.008109",
+              "Address": {
+                "AddressLine1": "4545 W John Carpenter Frwy",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-972-929-4500",
+                "Fax": "1-972-929-0733"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "137",
+                  "Description": "Complimentary in-room coffee or tea"
+                },
+                {
+                  "Code": "165",
+                  "Description": "Lounges/bars"
+                },
+                {
+                  "Code": "168",
+                  "Description": "Onsite laundry"
+                },
+                {
+                  "Code": "179",
+                  "Description": "Wireless internet connection in public areas"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2004",
+                  "Description": "Local Calls"
+                },
+                {
+                  "Code": "2006",
+                  "Description": "Refrigerator"
+                },
+                {
+                  "Code": "2007",
+                  "Description": "In Room Safe"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "215",
+                  "Description": "Exhibition/convention floor"
+                },
+                {
+                  "Code": "22",
+                  "Description": "Concierge desk"
+                },
+                {
+                  "Code": "224",
+                  "Description": "Pets allowed"
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "261",
+                  "Description": "High speed wireless"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "34",
+                  "Description": "Executive floor"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "76",
+                  "Description": "Restaurant"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "9",
+                  "Description": "Conference center"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "263309",
+              "Ordinal": 0,
+              "Format": "JPG",
+              "LastModifedDate": "2016-01-11",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/4513/ytvnr4breb418msp2emb.jpg",
+                "Type": "MEDIUM",
+                "Height": 400,
+                "Width": 400
+              },
+              "Category": {
+                "CategoryCode": 1,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "en",
+                      "value": "Exterior view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Exterior at dusk"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100067538",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Wyndham Dfw Airport North",
+            "ChainCode": "WY",
+            "ChainName": "Wyndham Hotels",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 2.4,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/wy/WY.png",
+            "SabreRating": "3.0",
+            "Ordinal": 12,
+            "LocationInfo": {
+              "Latitude": "32.916369",
+              "Longitude": "-97.007587",
+              "Address": {
+                "AddressLine1": "4441 W. John Carpenter Freeway",
+                "AddressLine2": "Irving Tx Us 75063",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "972-929-8181",
+                "Fax": "972-929-8233"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "215",
+                  "Description": "Exhibition/convention floor"
+                },
+                {
+                  "Code": "224",
+                  "Description": "Pets allowed"
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "34",
+                  "Description": "Executive floor"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "9",
+                  "Description": "Conference center"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100081674",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Wingate By Wy Dfw North Irving",
+            "ChainCode": "WG",
+            "ChainName": "Wingate Inn",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 2.5,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/wg/WG.png",
+            "SabreRating": "3.0",
+            "Ordinal": 13,
+            "LocationInfo": {
+              "Latitude": "32.919106",
+              "Longitude": "-97.007944",
+              "Address": {
+                "AddressLine1": "8220 Esters Boulevard",
+                "AddressLine2": "Irving Tx Us 75063",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75038",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-972-9294600",
+                "Fax": "1-972-9294602"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "55",
+                  "Description": "Hot Tub"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100107580",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Residence Inn Dfw Ap N Irving",
+            "ChainCode": "RC",
+            "ChainName": "Residence Inn",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 2.8,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/rc/RC.png",
+            "SabreRating": "3.0",
+            "Ordinal": 14,
+            "LocationInfo": {
+              "Latitude": "32.92666",
+              "Longitude": "-97.00937",
+              "Address": {
+                "AddressLine1": "8600 Esters Blvd",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "972-871-1331",
+                "Fax": "972-871-1332"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "224",
+                  "Description": "Pets allowed"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "262",
+                  "Description": "Kitchenette"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "1",
+                  "Description": "All suite"
+                },
+                {
+                  "Code": "13",
+                  "Description": "Extended stay"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100035516",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Hilton Garden Inn Dfw North Gra",
+            "ChainCode": "GI",
+            "ChainName": "Hilton Garden Inn",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 2.84,
+            "Direction": "NW",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/gi/GI.png",
+            "SabreRating": "3.0",
+            "Ordinal": 15,
+            "LocationInfo": {
+              "Latitude": "32.921967",
+              "Longitude": "-97.079196",
+              "Address": {
+                "AddressLine1": "205 W State Highway 114",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Grapevine"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "76051",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-817-421-1172",
+                "Fax": "1-817-421-1182"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "168",
+                  "Description": "Onsite laundry"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2004",
+                  "Description": "Local Calls"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "54",
+                  "Description": "Indoor pool"
+                },
+                {
+                  "Code": "55",
+                  "Description": "Hot Tub"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "76",
+                  "Description": "Restaurant"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100135170",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Super 8 Grapevine Dfw Airport",
+            "ChainCode": "OZ",
+            "ChainName": "Super 8",
+            "BrandCode": "10003",
+            "BrandName": "Super 8",
+            "Distance": 2.86,
+            "Direction": "NW",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/oz/OZ.png",
+            "SabreRating": "3.0",
+            "Ordinal": 16,
+            "LocationInfo": {
+              "Latitude": "32.923916",
+              "Longitude": "-97.07766",
+              "Address": {
+                "AddressLine1": "250 E State Highway 114",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Grapevine"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "76051",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-817-3297222",
+                "Fax": "1-817-4212182"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2004",
+                  "Description": "Local Calls"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "224",
+                  "Description": "Pets allowed"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "236",
+                  "Description": "Golf"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "27",
+                  "Description": "Motel"
+                }
+              ]
+            }
+          },
+          "HotelImageInfo": {
+            "ImageItem": {
+              "Id": "588661",
+              "Ordinal": 0,
+              "Format": "JPG",
+              "LastModifedDate": "2016-04-10",
+              "Image": {
+                "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_medium/hotel/i/7372/me1xelztvewfpv4mg5dd.jpg",
+                "Type": "MEDIUM",
+                "Height": 257,
+                "Width": 338
+              },
+              "Category": {
+                "CategoryCode": 1,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "en",
+                      "value": "Exterior view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Welcome to Super 8 Grapevine DFW Arpt N"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100099340",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Holiday Inn Ex Stes Dfw",
+            "ChainCode": "HI",
+            "ChainName": "Holiday Inn",
+            "BrandCode": "10001",
+            "BrandName": "Holiday Inn",
+            "Distance": 2.88,
+            "Direction": "NW",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/hi/HI.png",
+            "SabreRating": "3.0",
+            "Ordinal": 17,
+            "LocationInfo": {
+              "Latitude": "32.921962",
+              "Longitude": "-97.080023",
+              "Address": {
+                "AddressLine1": "309 State Hwy 114 West",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Grapevine"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "76051",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "817-442-5919",
+                "Fax": "817-442-5960"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "262",
+                  "Description": "Kitchenette"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "289",
+                  "Description": "Children programs"
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100058266",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Courtyard Dfw North",
+            "ChainCode": "CY",
+            "ChainName": "Courtyard By Marriott",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 3.24,
+            "Direction": "NE",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/cy/CY.png",
+            "SabreRating": "3.0",
+            "Ordinal": 18,
+            "LocationInfo": {
+              "Latitude": "32.93632",
+              "Longitude": "-97.0125",
+              "Address": {
+                "AddressLine1": "4949 Regent Blvd",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Irving"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75063",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "972-929-4004",
+                "Fax": "972-929-4207"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "224",
+                  "Description": "Pets allowed"
+                },
+                {
+                  "Code": "228",
+                  "Description": "Business center"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "255",
+                  "Description": "Data port"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100154524",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Great Wolf Lodge Grapevine",
+            "ChainCode": "YX",
+            "ChainName": "SynXis",
+            "BrandCode": "10634",
+            "BrandName": "SynXis",
+            "Distance": 3.38,
+            "Direction": "N",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/yx/YX.png",
+            "SabreRating": "3.0",
+            "Ordinal": 19,
+            "LocationInfo": {
+              "Latitude": "32.94242",
+              "Longitude": "-97.05995",
+              "Address": {
+                "AddressLine1": "100 Great Wolf Drive",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "Grapevine"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "76051",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "1-817-4886510",
+                "Fax": "1-817-488-6492"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2001",
+                  "Description": "Eco Friendly"
+                },
+                {
+                  "Code": "2004",
+                  "Description": "Local Calls"
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "54",
+                  "Description": "Indoor pool"
+                },
+                {
+                  "Code": "55",
+                  "Description": "Hot Tub"
+                },
+                {
+                  "Code": "66",
+                  "Description": "Outdoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "30",
+                  "Description": "Resort"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HotelInfo": {
+            "HotelCode": "100108964",
+            "CodeContext": "GLOBAL",
+            "HotelName": "Springhill Stes Marriott Irving",
+            "ChainCode": "XV",
+            "ChainName": "Springhill Suites",
+            "BrandCode": "10000",
+            "BrandName": "undefined",
+            "Distance": 4.05,
+            "Direction": "E",
+            "UOM": "MI",
+            "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/xv/XV.png",
+            "SabreRating": "3.0",
+            "Ordinal": 20,
+            "LocationInfo": {
+              "Latitude": "32.891392",
+              "Longitude": "-96.971491",
+              "Address": {
+                "AddressLine1": "5800 High Point Drive",
+                "CityName": {
+                  "CityCode": "DFW",
+                  "value": "IRVING"
+                },
+                "StateProv": {
+                  "StateCode": "TX",
+                  "value": ""
+                },
+                "PostalCode": "75038",
+                "CountryName": {
+                  "Code": "US",
+                  "value": "United States (the)"
+                }
+              },
+              "Contact": {
+                "Phone": "972-580-1120",
+                "Fax": "972-580-1122"
+              }
+            },
+            "Amenities": {
+              "Amenity": [
+                {
+                  "Code": "101",
+                  "Description": "Wheelchair access"
+                },
+                {
+                  "Code": "15",
+                  "Description": "Car rental desk"
+                },
+                {
+                  "Code": "162",
+                  "Description": "Meal plan available"
+                },
+                {
+                  "Code": "168",
+                  "Description": "Onsite laundry"
+                },
+                {
+                  "Code": "198",
+                  "Description": "Non-smoking rooms (generic)"
+                },
+                {
+                  "Code": "2014",
+                  "Description": "Family Room"
+                },
+                {
+                  "Code": "2016",
+                  "Description": "Rollaway adult"
+                },
+                {
+                  "Code": "2017",
+                  "Description": "Crib charge"
+                },
+                {
+                  "Code": "2018",
+                  "Description": "Extra person"
+                },
+                {
+                  "Code": "227",
+                  "Description": "Complimentary breakfast",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "24",
+                  "Description": "Conference facilities"
+                },
+                {
+                  "Code": "259",
+                  "Description": "High speed internet access"
+                },
+                {
+                  "Code": "260",
+                  "Description": "Interior corridors"
+                },
+                {
+                  "Code": "282",
+                  "Description": "Airport shuttle service",
+                  "ComplimentaryInd": true
+                },
+                {
+                  "Code": "42",
+                  "Description": "Free parking"
+                },
+                {
+                  "Code": "44",
+                  "Description": "Game room"
+                },
+                {
+                  "Code": "48",
+                  "Description": "Health club"
+                },
+                {
+                  "Code": "54",
+                  "Description": "Indoor pool"
+                },
+                {
+                  "Code": "71",
+                  "Description": "Pool"
+                },
+                {
+                  "Code": "77",
+                  "Description": "Room service"
+                },
+                {
+                  "Code": "96",
+                  "Description": "Dry cleaning"
+                }
+              ]
+            },
+            "PropertyTypeInfo": {
+              "PropertyType": [
+                {
+                  "Code": "1",
+                  "Description": "All suite"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

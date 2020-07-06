@@ -1,0 +1,52 @@
+{
+  "GetHotelAvailRQ": {
+    "SearchCriteria": {
+      "OffSet": 1,
+      "SortBy": "TotalRate",
+      "SortOrder": "DESC",
+      "PageSize": 20,
+      "TierLabels": false,
+      "GeoSearch": {
+        "GeoRef": {
+          "Radius": 50,
+          "UOM": "MI",
+          "RefPoint": {
+            "Value": "DFW",
+            "ValueContext": "CODE",
+            "RefPointType": "6"
+          }
+        }
+      },
+      "RateInfoRef": {
+        "ConvertedRateInfoOnly": false,
+        "CurrencyCode": "USD",
+        "BestOnly": "2",
+        "PrepaidQualifier": "IncludePrepaid",
+        "StayDateRange": {
+          "StartDate": "2020-08-01",
+          "EndDate": "2020-08-05"
+        },
+        "Rooms": {
+          "Room": [
+            {
+              "Index": 1,
+              "Adults": 1,
+              "Children": 0
+            }
+          ]
+        },
+        "InfoSource": "100,110,112,113"
+      },
+      "HotelPref": {
+        "SabreRating": {
+          "Min": "3",
+          "Max": "5"
+        }
+      },
+      "ImageRef": {
+        "Type": "MEDIUM",
+        "LanguageCode": "EN"
+      }
+    }
+  }
+}

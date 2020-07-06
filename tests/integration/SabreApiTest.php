@@ -2,13 +2,19 @@
 
 namespace Upstain\SabreApiClient\Tests\Integration;
 
+use Prophecy\Argument;
+use Prophecy\PhpUnit\ProphecyTrait;
+use Symfony\Contracts\Cache\CacheInterface;
 use Upstain\SabreApiClient\Request\Hotel\Details\SearchDetailInput;
 use Upstain\SabreApiClient\Request\Hotel\SearchCriteria\SearchInput;
+use Upstain\SabreApiClient\Response\Authorization\AuthorizationResponse;
 use Upstain\SabreApiClient\Sabre;
 use Codeception\Test\Unit;
 
 class SabreApiTest extends Unit
 {
+    use ProphecyTrait;
+
     protected \IntegrationTester $tester;
 
     public function testAuthorization()
@@ -22,7 +28,7 @@ class SabreApiTest extends Unit
 
     public function testHotelAvailability()
     {
-        $sabreClient = new Sabre('https://api-crt.cert.havail.sabre.com', $_ENV['SABRE_API_USER_SECRET']);
+        $sabreClient = $this->auth();
 
         $input = new SearchInput();
         $input->setStartDate(new \DateTime());
@@ -35,12 +41,34 @@ class SabreApiTest extends Unit
 
     public function testHotelDetails()
     {
-        $sabreClient = new Sabre('https://api-crt.cert.havail.sabre.com', $_ENV['SABRE_API_USER_SECRET']);
+        $sabreClient = $this->auth();
 
         $input = new SearchDetailInput();
         $input->setHotelCode('100148572');
-        $response = $sabreClient->authenticate()->hotelDetails($input);
 
-        // TODO add response interface to both responses.
+        $response = $sabreClient->hotelDetails($input);
+
+        $this->assertArrayHasKey('GetHotelDetailsRS', $response->getRawResponse());
+        $this->assertEquals('Complete', $response->fromRawResponse()['GetHotelDetailsRS']['ApplicationResults']['status']);
+    }
+
+    private function auth(): Sabre
+    {
+        $sabreClient = new Sabre('https://api-crt.cert.havail.sabre.com', $_ENV['SABRE_API_USER_SECRET']);
+        if ($_ENV['SABRE_API_ACCESS_TOKEN']) {
+            $cache = $this->prophesize(CacheInterface::class);
+            $authResponse = new AuthorizationResponse(
+                $_ENV['SABRE_API_ACCESS_TOKEN'],
+                'bearer',
+                '604800'
+            );
+            $cache->get(Argument::any(), Argument::any())->willReturn($authResponse);
+
+            $sabreClient->authenticate($cache->reveal());
+        } else {
+            $sabreClient->authenticate();
+        }
+
+        return $sabreClient;
     }
 }

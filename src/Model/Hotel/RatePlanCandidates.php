@@ -9,7 +9,7 @@ class RatePlanCandidates
         return [
             'ExactMatchOnly' => false,
             'RatePlanCandidate' => [
-                [],
+                new \stdClass(),
             ],
         ];
     }

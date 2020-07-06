@@ -1,0 +1,127 @@
+{
+  "GetHotelDetailsRQ": {
+    "version": "1.1.0",
+    "SearchCriteria": {
+      "HotelRefs": {
+        "HotelRef": {
+          "HotelCode": "100148572",
+          "CodeContext": "GLOBAL"
+        }
+      },
+      "RateInfoRef": {
+        "CurrencyCode": "USD",
+        "ConvertedRateInfoOnly": false,
+        "PrepaidQualifier": "IncludePrepaid",
+        "StayDateRange": {
+          "StartDate": "2020-08-01",
+          "EndDate": "2020-08-05"
+        },
+        "Rooms": {
+          "Room": [
+            {
+              "Index": 1,
+              "Adults": 1,
+              "Children": 1,
+              "ChildAges": "1"
+            }
+          ]
+        },
+        "RatePlanCandidates": {
+          "ExactMatchOnly": false,
+          "RatePlanCandidate": [
+            {}
+          ]
+        },
+        "InfoSource": "100,110,112,113"
+      },
+      "HotelContentRef": {
+        "DescriptiveInfoRef": {
+          "PropertyInfo": true,
+          "LocationInfo": true,
+          "Amenities": true,
+          "Descriptions": {
+            "Description": [
+              {
+                "Type": "ShortDescription"
+              },
+              {
+                "Type": "Alerts"
+              },
+              {
+                "Type": "Dining"
+              },
+              {
+                "Type": "Facilities"
+              },
+              {
+                "Type": "Recreation"
+              },
+              {
+                "Type": "Services"
+              },
+              {
+                "Type": "Attractions"
+              },
+              {
+                "Type": "CancellationPolicy"
+              },
+              {
+                "Type": "DepositPolicy"
+              },
+              {
+                "Type": "Directions"
+              },
+              {
+                "Type": "Policies"
+              },
+              {
+                "Type": "SafetyInfo"
+              },
+              {
+                "Type": "TransportationInfo"
+              }
+            ]
+          },
+          "AdditionalCharges": true,
+          "PointOfInterests": true,
+          "Airports": true,
+          "AcceptedCreditCards": true,
+          "GuaranteePolicies": true
+        },
+        "MediaRef": {
+          "MaxItems": "ALL",
+          "MediaTypes": {
+            "Images": {
+              "Image": [
+                {
+                  "Type": "ORIGINAL"
+                }
+              ]
+            }
+          },
+          "AdditionalInfo": {
+            "Info": [
+              {
+                "Type": "CAPTION",
+                "value": true
+              }
+            ]
+          },
+          "Languages": {
+            "Language": [
+              {
+                "Code": "EN"
+              },
+              {
+                "Code": "ES"
+              },
+              {
+                "Code": "IT"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

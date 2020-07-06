@@ -11,7 +11,7 @@ class DefaultSearchCriteriaTest extends Unit
     public function testBuild()
     {
         $expected = \json_decode(
-            \file_get_contents(__DIR__.'/../../../_data/sabre/detailsRequest.json'),
+            \file_get_contents(__DIR__.'/../../_data/detailsRequest.json'),
             true,
             512,
             JSON_THROW_ON_ERROR

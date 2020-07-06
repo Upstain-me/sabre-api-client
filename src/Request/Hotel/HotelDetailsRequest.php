@@ -104,7 +104,7 @@ class HotelDetailsRequest
         try {
             $response = $client->request(
                 'POST',
-                $this->sabreObject->getApiBaseUrl().'/v2.1.0/get/hotelavail',
+                $this->sabreObject->getApiBaseUrl().'/v1.1.0/get/hoteldetails',
                 [
                     'body' => \json_encode($this->requestBody, JSON_THROW_ON_ERROR),
                 ],

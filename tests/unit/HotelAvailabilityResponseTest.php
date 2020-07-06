@@ -10,7 +10,7 @@ class HotelAvailabilityResponseTest extends Unit
     public function testFromRawResponse()
     {
         $response = \json_decode(
-            \file_get_contents(__DIR__.'/../../_data/sabre/response.json'),
+            \file_get_contents(__DIR__.'/../_data/response.json'),
             true,
             512,
             JSON_THROW_ON_ERROR

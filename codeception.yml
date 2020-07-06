@@ -14,3 +14,10 @@ actor_suffix: Tester
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
+
+params:
+  - .env.local
+coverage:
+  enabled: true
+  include:
+    - src/*

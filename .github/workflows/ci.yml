@@ -7,25 +7,28 @@ on:
       - 0.x.x
 
 jobs:
-  build:
-    # Job name is Greeting
-    name: Greeting
-    # This job runs on Linux
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Echo the greeting's time
-        run: ls -la
-
-  testJob:
-    name: Test job
-    needs: build
+  quality:
+    name: Code Quality
     runs-on: ubuntu-latest
     container: upstain/php:latest
 
     steps:
       - uses: actions/checkout@v2
-      - name: Echo the greeting's time
-        run: ls -la
-      - name: Test php
-        run: php -v
+
+      - name: Get Composer Cache Directory
+        id: composer-cache
+        run: |
+          echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - uses: actions/cache@v2
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
+
+      - name: Install
+        run: composer install
+
+      - name: Static Type Analysis
+        run: vendor/bin/phpstan analyse src --level 8

@@ -56,3 +56,11 @@ enable-xdebug:
 
 composer-install:
 	docker exec -i php composer install ;\
+
+quality:
+	docker-compose exec -T php vendor/bin/codecept run unit ;\
+	docker-compose exec -T php vendor/bin/phpstan analyse src --level 8 ;\
+	docker-compose exec -T php vendor/bin/ecs check ;\
+
+install-git-hook:
+	ln -s -f $(MK_FILE_DIR)bin/code_quality.sh .git/hooks/pre-push ;\

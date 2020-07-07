@@ -7,6 +7,10 @@ MK_FILE_DIR=$(dir $(realpath $(firstword $(MAKEFILE_LIST))))
 start:
 	docker-compose up -d
 
+install:
+	cp .env .env.local ;\
+	make start
+
 down:
 	docker-compose down
 

@@ -1,16 +1,38 @@
-name: Greet Everyone
+name: Upstain PHP Code Quality Workflow
 # This workflow is triggered on pushes to the repository.
-on:
-  push:
-    branches:
-      - master
+on: [pull_request]
 
 jobs:
-  build:
-    # Job name is Greeting
-    name: Greeting
-    # This job runs on Linux
+  quality:
+    name: Code Quality
     runs-on: ubuntu-latest
+    container: upstain/php:latest
+
     steps:
-      - name: Echo the greeting's time
-        run: php -v
+      - uses: actions/checkout@v2
+
+      - name: Get Composer Cache Directory
+        id: composer-cache
+        run: |
+          echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - uses: actions/cache@v2
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
+
+      - name: Install
+        run: composer install
+
+      - name: Tests
+        env:
+          SABRE_API_USER_SECRET: ${{ secrets.SABRE_API_USER_SECRET }}
+        run: cp .env .env.local && vendor/bin/codecept run
+
+      - name: Static Type Analysis
+        run: vendor/bin/phpstan analyse src --level 8
+
+      - name: Coding standards
+        run: vendor/bin/ecs check

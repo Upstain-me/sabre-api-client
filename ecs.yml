@@ -1,0 +1,12 @@
+parameters:
+  sets:
+    - 'clean-code'
+    - 'psr12'
+
+  paths:
+    - 'src'
+    - 'tests'
+
+  exclude_files:
+    # generated files
+    - 'tests/_support/_generated/*'

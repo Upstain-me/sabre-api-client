@@ -1,0 +1,2281 @@
+{
+  "GetHotelDetailsRS": {
+    "ApplicationResults": {
+      "status": "Complete",
+      "Success": [
+        {
+          "timeStamp": "2020-07-02T07:18:59.735-05:00"
+        }
+      ],
+      "Warning": [
+        {
+          "type": "Application",
+          "timeStamp": "2020-07-02T07:18:59.676-05:00",
+          "SystemSpecificResults": [
+            {
+              "Message": [
+                {
+                  "code": "ERR.5099",
+                  "value": "Invalid PCC. Length of PCC is greater than 4 characters."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "HotelDetailsInfo": {
+      "HotelInfo": {
+        "HotelCode": "100148572",
+        "CodeContext": "GLOBAL",
+        "HotelName": "Sheraton Ft Worth Hotel Spa",
+        "ChainCode": "SI",
+        "ChainName": "Sheraton Hotels",
+        "BrandCode": "10000",
+        "BrandName": "undefined",
+        "Status": "Active",
+        "SabreRating": "4.0"
+      },
+      "HotelDescriptiveInfo": {
+        "PropertyInfo": {
+          "Floors": "12",
+          "Rooms": "431",
+          "Policies": {
+            "Policy": [
+              {
+                "Text": {
+                  "Type": "CheckOut",
+                  "value": "1200"
+                }
+              },
+              {
+                "Text": {
+                  "Type": "CheckIn",
+                  "value": "1500"
+                }
+              }
+            ]
+          },
+          "PropertyQualityInfo": {
+            "PropertyQuality": [
+              {
+                "Code": "4",
+                "Description": "Luxury"
+              }
+            ]
+          }
+        },
+        "LocationInfo": {
+          "Latitude": 32.747528,
+          "Longitude": -97.325391,
+          "Address": {
+            "AddressLine1": "1701 Commerce Street",
+            "AddressLine2": "Ft Worth Tx Us 76102",
+            "CityName": {
+              "CityCode": "DFW",
+              "value": "Ft Worth"
+            },
+            "StateProv": {
+              "StateCode": "TX",
+              "value": ""
+            },
+            "PostalCode": "76102",
+            "CountryName": {
+              "Code": "US",
+              "value": "United States (the)"
+            }
+          },
+          "Contact": {
+            "Phone": "1-817-335-7000",
+            "Fax": "1-817-335-3333"
+          }
+        },
+        "Amenities": {
+          "Amenity": [
+            {
+              "Code": "101",
+              "Description": "Wheelchair access"
+            },
+            {
+              "Code": "15",
+              "Description": "Car rental desk"
+            },
+            {
+              "Code": "198",
+              "Description": "Non-smoking rooms (generic)"
+            },
+            {
+              "Code": "2014",
+              "Description": "Family Room"
+            },
+            {
+              "Code": "2016",
+              "Description": "Rollaway adult"
+            },
+            {
+              "Code": "2017",
+              "Description": "Crib charge"
+            },
+            {
+              "Code": "2018",
+              "Description": "Extra person"
+            },
+            {
+              "Code": "224",
+              "Description": "Pets allowed"
+            },
+            {
+              "Code": "228",
+              "Description": "Business center"
+            },
+            {
+              "Code": "236",
+              "Description": "Golf"
+            },
+            {
+              "Code": "24",
+              "Description": "Conference facilities"
+            },
+            {
+              "Code": "255",
+              "Description": "Data port"
+            },
+            {
+              "Code": "259",
+              "Description": "High speed internet access"
+            },
+            {
+              "Code": "42",
+              "Description": "Free parking"
+            },
+            {
+              "Code": "44",
+              "Description": "Game room"
+            },
+            {
+              "Code": "48",
+              "Description": "Health club"
+            },
+            {
+              "Code": "54",
+              "Description": "Indoor pool"
+            },
+            {
+              "Code": "71",
+              "Description": "Pool"
+            },
+            {
+              "Code": "77",
+              "Description": "Room service"
+            },
+            {
+              "Code": "96",
+              "Description": "Dry cleaning"
+            }
+          ]
+        },
+        "Descriptions": {
+          "Description": [
+            {
+              "Text": {
+                "Type": "ShortDescription",
+                "value": "- FULL SERVICE               - HOTEL\n\nYEAR BUILT - 2008            YEAR REMODELED - 2008\nADDITIONAL PROPERTY DESCRIPTION -\n  WE ARE LOCATED IN THE COMMERCIAL/HOSPITALITY DISTRICT\n  ABOUT 1 BLOCK FROM THE CONVENTION CENTER. A MODERN WARM\n  INVITING HOTEL WITH A SOUTHERN CHARM. OUR HOTEL IS A\n  COMPLETE RESTORATION AND REBUILD OF A CLASSIC HOTEL AT\n  ONE OF THE MOST CONVENIENT LOCATIONS IN FT. WORTH.\n  BEAUTIFUL SOFT COLORS..MARBLE FLOORS..BEAUTIFUL CHERRY\n  WOODS..ONSITE STARBUCKS..DELICIOUS RESTAURANT AND THE\n  MOST HOSPITABLE STAFF IN THE SOUTH.\n"
+              }
+            },
+            {
+              "Text": {
+                "Type": "Dining",
+                "value": "ROOM SERVICE OFFERED FROM 2359 HRS TO 2359 HRS\n\nPROPERTY HAS 1 RESTAURANTS ON-SITE\n\nCLUB FLOOR\nTYPE OF RESTAURANT - BAR/LOUNGE\nMEALS SERVED - BREAKFAST\nRESTAURANT DESCRIPTION -\n  CLUB LEVEL PROVIDES PRIVATE ACCESS, ADDITIONAL\n  AMENETIES, COMPLIMENTARY TOLL-FREE/LOCAL PHONE CALLS,\n  FITNESS CENTER USE, BREAKFAST, AND EVENING HORS D\n  OEUVRES AND COCKTAILS\n\nSHERATON CAFE\nTYPE OF RESTAURANT - FULL SERVICE RESTAURANT\nMEALS SERVED - BREAKFAST - LUNCH - DINNER\nRESTAURANT DESCRIPTION -\n  SERVING BREAKFAST - LUNCH AND DINNER TO ACCOMMODATE UP\n  TO 300 GUESTS.\n\nSHULAS 347 GRILL\nTYPE OF RESTAURANT - FULL SERVICE RESTAURANT\nMEALS SERVED - BREAKFAST - LUNCH - DINNER\nRESTAURANT DESCRIPTION -\n  - OPEN FOR BREAKFAST/LUNCH AND DINNER. CONTINENTAL\n  CUISINE.\n"
+              }
+            },
+            {
+              "Text": {
+                "Type": "Facilities",
+                "value": "ON-SITE FACILITIES -\n\n GENERAL FACILITIES -\n  BAR                         BARBER/BEAUTY SHOP\n  COFFEE SHOP                 CONFERENCE ROOM\n  DATAPORT                    ELEVATORS\n  EXECUTIVE/CLUB FLOORS       GIFT SHOP\n  HANDICAP FACILITIES         ICE/VENDING MACHINES\n  INDOOR POOL                 LOUNGE\n  MEETING ROOM                NON-SMOKING ROOMS\n  RESTAURANT                  SAUNA\n  SPA                         STEAM ROOM\n  WHEELCHAIR ACCESS\n  WHEELCHAIR ACCESSIBLE ELEVATORS\n  WHIRLPOOL\n\n CHARGEABLE FACILITIES -\n  BUSINESS CENTER  24 HOURS\n  FITNESS CENTER  HOURS - FROM 0600 TO 2200 DAILY\n  HEALTH CLUB  HOURS - FROM 0600 TO 2200 DAILY\n\n PARKING FACILITIES -\n  DISABLED PARKING  24 HOURS  8.00 USD SELF PARKING\n  OUTDOOR PARKING  24 HOURS  8.00 USD SELF PARKING\n  VALET PARKING  24 HOURS  18.00 USD IN AND OUT PRIVILEGES\n\n PUBLIC AREA FACILITIES -\n  HIGH SPEED INTERNET ACCESS  ALL ROOMS AND HOTEL\n  KIOSK, INTERNET APPLIANCE, PC  LINK AT SHERATON\n    COMPLIMENTARY IN LOBBY\n  WIRELESS DATA CONNECTION  ALL ROOMS AND HOTEL\n\nADDITIONAL ONSITE FACILITIES -\n  - INTERNET - WIRED AND WIRELESS HIGH SPEED INTERNET\n  ACCESS AVAILABLE IN ALL GUEST ROOMS AND THROUGHOUT THE\n  HOTEL FOR A FEE. - PARKING - SELF PARKING IS AVAILABLE\n  IN AN UNCOVERED LOT FOR 8.00USD PER DAY AND VALET\n  PARKING IS ALSO AVAILABLE FOR 18.00USD PER DAY WITH IN\n  AND OUT PRIVILEGES. - SALON/SPA - SPA/SALON FEATURING A\n  WIDE RANGE OF SERVICES. - SHERATON SWEET SLEEPER\n  BED..SHERATON SWEET SLEEPER DOG BED..SHERATON SWEET\n  SLEEPER CRIBS..CLUB LEVEL ROOMS -\n\nOFF-SITE FACILITIES -\n\n GENERAL FACILITIES -\n  GOLF COURSE\n\nMEETING AND CONVENTION FACILITIES -\n\nTOTAL NBR OF MEETING ROOMS - 13\nTOTAL MEASUREMENT, ALL ROOMS - 22000 SQ FT\nCAPACITY OF LARGEST MEETING ROOM - 1200\nMEASUREMENT OF LARGEST MEETING ROOM - 8700 SQ FT\nCAPACITY OF SMALLEST MEETING ROOM - 18\nMEASUREMENT OF SMALLEST MEETING ROOM - 400 SQ FT\n\nMEETING AND CONVENTION FACILITY TEXT -\n  13 MEETING ROOMS AND 22000 SQ FEET OF MEETING SPACE.\n  SMALLEST "
+              }
+            },
+            {
+              "Text": {
+                "Type": "Recreation",
+                "value": "ON-SITE RECREATION -\nONSITE RECREATIONAL ACTIVITIES -\n  - HEALTH CLUB - 8000SQ FT SPA AND HEALTH CLUB WITH\n  INDOOR POOL/AEROBIC EQUIPMENT/YOGA AND PILATES\n  ROOM/SAUNA AND STEAM ROOM.\n\nOFF-SITE RECREATION -\nOFFSITE RECREATIONAL ACTIVITIES -\n  - GOLF - ROCKWOOD GOLF COURSE - 4 MILES.\n"
+              }
+            },
+            {
+              "Text": {
+                "Type": "Services",
+                "value": "ON-SITE GENERAL SERVICES -\n  24-HOUR ROOM SERVICE        BAGGAGE HOLD\n  BUSINESS SERVICES           CONCIERGE\n  DRY CLEANING                EXPRESS CHECK-IN\n  EXPRESS CHECK-OUT           HANDICAP SERVICES\n  HEARING IMPAIRED SERVICES   KIOSK CHECK-IN\n  LOCAL SHUTTLE\n\nON-SITE CHARGEABLE SERVICES -\n  HOUSEKEEPING  FULL\n  LAUNDRY/VALET  24 HRS\n  STORAGE  COMPLIMENTARY\n\nADDITIONAL ON-SITE PROPERTY SERVICES -\n  - REFRIGERATORS - AVAILABLE FOR RENTAL DEPENDING ON\n  AVAILABILITY.\n\nBUSINESS SERVICES -\n  BUSINESS CENTER             COMPUTER PRINTING\n  COMPUTERS                   CONFERENCE SERVICES\n  COPY MACHINE                COPY SERVICE\n  FAX SERVICE                 PHONE LINES\n  TVS\n\nCHARGEABLE BUSINESS SERVICES -\n  INTERNET APPLIANCE OR PC\n\nBUSINESS AND MEETING SERVICES -\n  - LINK AT SHERATON - STAY CONNECTED TO WHAT IS\n  IMPORTANT TO YOU WITH OUR LOBBY CONNECTION\n  DESTINATION..THE LINK AT SHERATON. DURING YOUR\n  STAY..YOU WILL RECEIVE ACCESS TO FREE WI-FI..FREE PC\n  WORK STATIONS AND TV ON PC WORK STATIONS. -\n"
+              }
+            },
+            {
+              "Text": {
+                "Type": "Attractions",
+                "value": "PRIMARY CITY -\nDFW - DALLAS-FORT WORTH\n3 MI S\n\nBASS PERFORMANCE HALL     0 MI\nBILLY BOBS TEXAS          3 MI\nFORT WORTH CONVENTION CENT1 BLOCKS\nFORT WORTH CULTURAL DISTRI4 MI\nFORT WORTH STOCKYARDS     4 MI\nFORT WORTH ZOO            4 MI\nHARRIS METHODIST FORT WORT2 MI\nKIMBELL ART MUSEUM        3 MI\nMODERN ART MUSEUM         2 MI\nSAINT PATRICKS CATHEDRAL  1 MI\nSIX FLAGS OVER TEXAS      17 MI\nTEXAS CHRISTIAN UNIVERSITY4 MI\nTEXAS MOTOR SPEEDWAY      21 MI\nTEXAS WESLEYAN UNIVERSITY 5 MI\nTHE BALLPARK IN ARLINGTON 15 MI\n"
+              }
+            },
+            {
+              "Text": {
+                "Type": "CancellationPolicy",
+                "value": "-16OCT07 - END -\n\nCANCEL BY 24 DAYS PRIOR TO 1600 HOURS ON DAY OF ARRIVAL,\n  LOCAL HOTEL TIME TO AVOID A CANCELLATION PENALTY\n\nCANCELLATION POLICY TEXT -\n  INDIVIDUAL RATE PLANS MAY HAVE VARYING CANCELLATION\n  POLICIES. CHECK HOTEL AVAILABILITY RULES FOR COMPLETE\n  DETAILS.\n"
+              }
+            },
+            {
+              "Text": {
+                "Type": "DepositPolicy",
+                "value": "-16OCT07 - END MON-SUN\n  CERTAIN PERIODS AND INDIVIDUAL RATE PLANS MAY HAVE\n  DEPOSIT REQUIREMENTS AND VARYING CANCELLATION POLICIES.\n  CHECK HOTEL AVAILABILITY RULES FOR COMPLETE DETAILS.\n\nACCEPTED FORMS OF DEPOSIT-\nCREDIT CARD                  MONEY ORDER\nPERSONAL CHECK               WIRE PAYMENT\n"
+              }
+            },
+            {
+              "Text": {
+                "Type": "SafetyInfo",
+                "value": "THE PROPERTY COMPLIES WITH AMERICAN DISABILITIES ACT\n  GUIDELINES\n\nTHE PROPERTY MEETS ALL CURRENT LOCAL, STATE, AND COUNTRY\n  BUILDING CODES\n\nROOM SAFETY AND SECURITY -\n  DOORS HAVE DEAD BOLTS\n  DOORS HAVE VIEW PORTS\n  SECONDARY LOCKS ON SLIDING GLASS DOOR\n"
+              }
+            },
+            {
+              "Text": {
+                "Type": "TransportationInfo",
+                "value": "SHUTTLE TRANSPORTATION TO/FROM PRIMARY AIRPORT - DFW\n  SHUTTLE FEE - 27.00 USD SHUTTLE HOURS - FROM 2359 HRS\n  TO 2359 HRS\nSUPER SHUTTLE PROVIDES AIRPORT-HOTEL SHUTTLE SERVICE\n  24-HOURS DAILY FOR 27.00USD/WAY..RESERVATIONS\n  REQUIRED..1-800-BLUEVAN.\n\nDISTANCE FROM CITY CENTER TO PROPERTY   3 MI\nNEAREST RAILROAD STATION - AMTRAK 4 BLOCKS\nNEAREST METRO, BUS, SUBWAY - GREYHOUND 3 BLOCKS\nTRANSPORTATION FROM PRIMARY AIRPORT TO PROPERTY -\n  TAXI 65.00 USD - APPROXIMATE 65.00USD AIRPORT-HOTEL\n    FARE.\n\n  LIMO - YELLOW CHECKER SHUTTLE ALSO PROVIDES 24-HOUR\n    AIRPORT-HOTEL TRANSPORTATION..214-841-1900. AGENCY\n    LIMOUSINE IS ALTERNATE TRANSPORTATION TO/FROM DFW\n    AIRPORT.\n\nTRANSPORTATION FROM CITY CENTER TO PROPERTY -\n  TAXI - APPROXIMATE 7.00USD FARE TO/FROM THE\n    METRO..GREYHOUND BUS AND AMTRAK TRAIN STATIONS\n    LOCATED 3-4 BLOCKS AWAY.\n\n  RAIL OR SUBWAY - - METRO STATION - 3 BLOCKS. ESTIMATED\n    CAB FARE IS 7.00USD. - AMTRAK - 4 BLOCKS. ESTIMATED\n    CAB FARE IS 7.00USD.\n\n  BUS OR OTHER TRANSPORTATION - - GREYHOUND - 3 BLOCKS.\n    ESTIMATED CAB FARE IS 7.00USD.\n"
+              }
+            }
+          ]
+        },
+        "Airports": {}
+      },
+      "HotelMediaInfo": {
+        "MediaItems": {
+          "MediaItem": [
+            {
+              "Id": "483521",
+              "Ordinal": 4,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/bqbpno9tp45ptbjqfxjq.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 571,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 3,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Vista a la piscina"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Vista piscina"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Pool view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Indoor Pool and Spa"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Vista de la piscina"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Piscina"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483525",
+              "Ordinal": 13,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/hvam7dxw9hi74ih5odvj.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 682,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Bass Hall from ground level"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483529",
+              "Ordinal": 14,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/tmm8jspylbjlctgbdda0.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 773,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Modern Art Museum"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483533",
+              "Ordinal": 15,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/pabp8mruicfyh0c7wzrt.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 682,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Fort Worth's courthouse"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483537",
+              "Ordinal": 16,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/zfh8cj12dj83mgbgmflf.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 854,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "House with Blue Bonnet Flowers"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483541",
+              "Ordinal": 17,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/vugf2geqiycwsbocnnk9.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 685,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Modern Art Museum"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483545",
+              "Ordinal": 18,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/is5g6tznlf9cdqjprzhp.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 503,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Fort Worth at night"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483549",
+              "Ordinal": 19,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/oyzosvyh1dp58k0ryvsc.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 766,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Sculpture outside of Cowgirl Museum"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483553",
+              "Ordinal": 20,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/z3e7nx9lod9eiuxrij1p.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 682,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 20,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Diverso"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Miscellaneo"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Miscellaneous"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Saddle gear on a horse at stock show"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "No establecido"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Altro / Varie"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483557",
+              "Ordinal": 22,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/oqcn2w3o0pwghwgwx2v7.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 674,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 1,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Vista exterior"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Vista esterna"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Exterior view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Exterior"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Vista Exterior"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Facciata dell'albergo"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483561",
+              "Ordinal": 23,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/fwytvcsji9x1bqobtewr.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 676,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 6,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Habitación de huéspedes"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Camera degli ospiti"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Guest room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Corner Suite"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Habitaciones/Alojamientos"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Camere / sistemazione"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483565",
+              "Ordinal": 24,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/phtgeklopxm5mbythjqu.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 677,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 6,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Habitación de huéspedes"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Camera degli ospiti"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Guest room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Double Guestroom"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Habitaciones/Alojamientos"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Camere / sistemazione"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483569",
+              "Ordinal": 25,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/j8txb5kzlnfmfcwjpl5n.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 644,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 6,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Habitación de huéspedes"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Camera degli ospiti"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Guest room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Hospitality Suite"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Habitaciones/Alojamientos"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Camere / sistemazione"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483573",
+              "Ordinal": 26,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/irsqrinu474nytt2vcsu.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 715,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 6,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Habitación de huéspedes"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Camera degli ospiti"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Guest room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "King Guestroom"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Habitaciones/Alojamientos"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Camere / sistemazione"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483577",
+              "Ordinal": 27,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/htfsu2cqx7iwytktk0zm.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 661,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 6,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Habitación de huéspedes"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Camera degli ospiti"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Guest room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Guest Bathroom"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "habitación de huéspedes"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "guest room"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483581",
+              "Ordinal": 28,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/dhlpdiziyvjduab7a2vl.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 655,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 2,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Lobby view"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Lobby view"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Lobby view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Lobby"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Vista del vestíbulo"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Hall"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483585",
+              "Ordinal": 29,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/izjxptifboqpcwfhkzsj.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 769,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 2,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Lobby view"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Lobby view"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Lobby view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Lobby"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Vista del vestíbulo"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Hall"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483589",
+              "Ordinal": 30,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/gt9bvha4l5t4j7jk4ri7.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 708,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 6,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Habitación de huéspedes"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Camera degli ospiti"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Guest room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Hospitality Suite"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Habitaciones/Alojamientos"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Camere / sistemazione"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483593",
+              "Ordinal": 31,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/yst0qpn3j07xwmenayto.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 760,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 4,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Restaurante"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Ristorante"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Restaurant"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Taste of Texas"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Restaurante/Comedor"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Ristorante / Strutture gastronomiche"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483597",
+              "Ordinal": 32,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/f3ophcwbhd5jwiojlbak.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 709,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 13,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Bar / Salón"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Bar / Lounge"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Bar/Lounge"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Sheraton Club Lounge"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Bar/Salón"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Bar / Lounge"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483601",
+              "Ordinal": 33,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/kyucwsnbkccsb0mvmcba.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 700,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 13,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Bar / Salón"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Bar / Lounge"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Bar/Lounge"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Sheraton Club Lounge"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Bar/Salón"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Bar / Lounge"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483605",
+              "Ordinal": 34,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/shysxe4jofuvnk7emyq2.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 679,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 9,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Salón de baile"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Sala da ballo"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Ballroom"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Magnolia Ballroom"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "salón de baile"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Sala da ballo"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483609",
+              "Ordinal": 35,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/l35tjwybitgmefzccy6w.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 643,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 8,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Sala de reuniones"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Sala riunioni"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Meeting room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Cypress Meeting Room"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Sala de reuniones"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Sale conferenze"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483613",
+              "Ordinal": 36,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/vzxscclonukywpximmhj.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 679,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 8,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Sala de reuniones"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Sala riunioni"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Meeting room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Magnolia Ballroom"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Sala de reuniones"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Sale conferenze"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483617",
+              "Ordinal": 37,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/wrt0vk2iyt77oxzzbkq8.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 724,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 8,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Sala de reuniones"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Sala riunioni"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Meeting room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Walnut Boardroom"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Sala de reuniones"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Sale conferenze"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483621",
+              "Ordinal": 38,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/ldqocj7qgyuwodzpyxz6.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 724,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Sundance Square"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483625",
+              "Ordinal": 39,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/vqcbmkjcinyfpfuomqjg.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 758,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 22,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Amedidades de propiedad"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Servizi Proprietà"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Property amenity"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Fort Worth Watergardens"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "atracción local"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Attrazioni locali"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483629",
+              "Ordinal": 40,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/i6b1ztxrnztt9fislzfr.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 731,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 23,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Centro de negocios"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Business centre"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Business center"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "SheratonLink"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "centro de negocios-característica"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "affari-centro"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483633",
+              "Ordinal": 41,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/sunarfkw7agi0fhnk9rd.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 697,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 5,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Club de salud"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Centro benessere"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Health club"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Fitness Center"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Club de salud"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Centro benessere"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483637",
+              "Ordinal": 42,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/wb5dqeaogjztaoari72z.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 686,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 2,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Lobby view"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Lobby view"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Lobby view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Lobby"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Vista del vestíbulo"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Hall"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483641",
+              "Ordinal": 43,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/uroaj6mbc7aleuyzy63q.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 650,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 3,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Vista a la piscina"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Vista piscina"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Pool view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Pool"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Vista de la piscina"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Piscina"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483645",
+              "Ordinal": 44,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/wscpxidt0ub373jp3iwu.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 649,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 8,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Sala de reuniones"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Sala riunioni"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Meeting room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Screening Room"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Sala de reuniones"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Sale conferenze"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483649",
+              "Ordinal": 45,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/mnbeuyohmqe9vxlos1ij.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 686,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 2,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Lobby view"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Lobby view"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Lobby view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "it",
+                          "value": "Hall"
+                        },
+                        {
+                          "Language": "en",
+                          "value": "Lobby"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Vista del vestíbulo"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483653",
+              "Ordinal": 46,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/h4zeqbes1y807qcyfryn.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 650,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 3,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Vista a la piscina"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Vista piscina"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Pool view"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Pool"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Vista de la piscina"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Piscina"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Id": "483657",
+              "Ordinal": 47,
+              "LastModifedDate": "2016-04-09-05:00",
+              "Format": "JPG",
+              "ImageItems": {
+                "Image": [
+                  {
+                    "Url": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best/hotel/i/81567/qkuomiqs587jobokvavf.jpg",
+                    "Type": "ORIGINAL",
+                    "Height": 649,
+                    "Width": 1024
+                  }
+                ]
+              },
+              "Category": {
+                "CategoryCode": 8,
+                "Description": {
+                  "Text": [
+                    {
+                      "Language": "es",
+                      "value": "Sala de reuniones"
+                    },
+                    {
+                      "Language": "it",
+                      "value": "Sala riunioni"
+                    },
+                    {
+                      "Language": "en",
+                      "value": "Meeting room"
+                    }
+                  ]
+                }
+              },
+              "AdditionalInfo": {
+                "Info": [
+                  {
+                    "Type": "CAPTION",
+                    "Description": {
+                      "Text": [
+                        {
+                          "Language": "en",
+                          "value": "Screening Room"
+                        },
+                        {
+                          "Language": "es",
+                          "value": "Sala de reuniones"
+                        },
+                        {
+                          "Language": "it",
+                          "value": "Sale conferenze"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

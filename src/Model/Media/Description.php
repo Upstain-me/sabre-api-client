@@ -1,6 +1,8 @@
 <?php
 
-namespace Upstain\SabreApiClient\Response\Hotel\Image;
+namespace Upstain\SabreApiClient\Model\Media;
+
+use Upstain\SabreApiClient\Model\Hotel\TextDescriptionItem;
 
 class Description
 {

@@ -2,6 +2,8 @@
 
 namespace Upstain\SabreApiClient\Response\Hotel;
 
+use Upstain\SabreApiClient\Model\Hotel\HotelInfo;
+
 class HotelAvailInfo
 {
     /**
@@ -21,7 +23,7 @@ class HotelAvailInfo
     public function __construct(array $hotelInfo, ?array $hotelImageInfo = null)
     {
         $this->hotelInfo = new HotelInfo($hotelInfo);
-        $this->hotelImageInfo = $hotelImageInfo ? new HotelImageInfo($hotelImageInfo) : null;
+        $this->hotelImageInfo = $hotelImageInfo ? new HotelImageInfo($hotelImageInfo['ImageItem']) : null;
     }
 
     /**

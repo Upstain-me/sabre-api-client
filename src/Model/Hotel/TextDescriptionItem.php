@@ -1,11 +1,12 @@
 <?php
 
-namespace Upstain\SabreApiClient\Response\Hotel\Image;
+namespace Upstain\SabreApiClient\Model\Hotel;
 
 class TextDescriptionItem
 {
     private ?string $language;
     private ?string $value;
+    private ?string $type;
 
     /**
      * @param array<string, mixed> $data
@@ -14,6 +15,7 @@ class TextDescriptionItem
     {
         $this->language = $data['Language'] ?? null;
         $this->value = $data['value'] ?? null;
+        $this->type = $data['type'] ?? null;
     }
 
     /**
@@ -30,5 +32,13 @@ class TextDescriptionItem
     public function getValue(): ?string
     {
         return $this->value;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getType(): ?string
+    {
+        return $this->type;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Upstain\SabreApiClient\Response\Hotel;
+namespace Upstain\SabreApiClient\Model\Location;
 
 class LocationInfo
 {

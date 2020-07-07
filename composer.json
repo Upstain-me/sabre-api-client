@@ -4,6 +4,11 @@
     "type": "library",
     "homepage": "https://upstain.me",
     "license": "MIT",
+    "keywords": [
+        "PHP",
+        "Sabre",
+        "Sabre API"
+    ],
     "authors": [
         {
             "name": "Bene Lorant",

@@ -3,7 +3,7 @@
 namespace Upstain\SabreApiClient\Tests\Unit\Details;
 
 use Codeception\Test\Unit;
-use Upstain\SabreApiClient\Response\Hotel\Details\HotelDetailsInfo;
+use Upstain\SabreApiClient\Response\Hotel\Details\HotelDetailsResponse;
 
 class HotelDetailsResponseTest extends Unit
 {
@@ -16,7 +16,7 @@ class HotelDetailsResponseTest extends Unit
             JSON_THROW_ON_ERROR
         );
 
-        $actual = new HotelDetailsInfo($response['GetHotelDetailsRS']['HotelDetailsInfo']);
+        $actual = (new HotelDetailsResponse($response))->fromRawResponse();
 
         $this->assertEquals('Sheraton Ft Worth Hotel Spa', $actual->getHotelInfo()->getHotelName());
         $this->assertEquals('32.747528', $actual->getHotelDescriptiveInfo()->getLocationInfo()->getLatitude());

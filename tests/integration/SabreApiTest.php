@@ -49,7 +49,9 @@ class SabreApiTest extends Unit
         $response = $sabreClient->hotelDetails($input);
 
         $this->assertArrayHasKey('GetHotelDetailsRS', $response->getRawResponse());
-        $this->assertEquals('Complete', $response->fromRawResponse()['GetHotelDetailsRS']['ApplicationResults']['status']);
+
+        $actual = $response->fromRawResponse();
+        $this->assertIsArray($actual->getHotelMediaInfo()->getMediaItems());
     }
 
     private function auth(): Sabre

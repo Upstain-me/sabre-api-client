@@ -19,7 +19,7 @@
     "require": {
         "php": "^7.4",
         "ext-json": "*",
-        "symfony/cache-contracts": "^2.1",
+        "symfony/cache-contracts": "^2.0",
         "symfony/http-client": "^5.0"
     },
     "require-dev": {

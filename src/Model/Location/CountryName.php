@@ -1,27 +1,27 @@
 <?php
 
-namespace Upstain\SabreApiClient\Response\Hotel;
+namespace Upstain\SabreApiClient\Model\Location;
 
-class StateProv
+class CountryName
 {
-    private string $stateCode;
+    private string $code;
     private string $value;
 
     /**
-     * @param array<string, string> $data
+     * @param array<string, mixed> $data
      */
     public function __construct(array $data)
     {
-        $this->stateCode = $data['StateCode'];
+        $this->code = $data['Code'];
         $this->value = $data['value'];
     }
 
     /**
      * @return mixed|string
      */
-    public function getStateCode()
+    public function getCode()
     {
-        return $this->stateCode;
+        return $this->code;
     }
 
     /**

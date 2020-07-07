@@ -26,11 +26,10 @@ class HotelDetailsResponse
     }
 
     /**
-     * @return array<string, mixed>
+     * @return HotelDetailsInfo
      */
-    public function fromRawResponse(): array
+    public function fromRawResponse(): HotelDetailsInfo
     {
-        // TODO modelling needs to be done.
-        return $this->rawResponse;
+        return new HotelDetailsInfo($this->rawResponse['GetHotelDetailsRS']['HotelDetailsInfo']);
     }
 }

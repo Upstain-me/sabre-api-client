@@ -1,6 +1,6 @@
 <?php
 
-namespace Upstain\SabreApiClient\Response\Hotel\Image;
+namespace Upstain\SabreApiClient\Model\Media;
 
 class AdditionalInfo
 {

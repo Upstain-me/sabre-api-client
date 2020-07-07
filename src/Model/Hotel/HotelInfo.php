@@ -1,8 +1,10 @@
 <?php
 
-namespace Upstain\SabreApiClient\Response\Hotel;
+namespace Upstain\SabreApiClient\Model\Hotel;
 
-use Upstain\SabreApiClient\Model\Hotel\Hotel;
+use Upstain\SabreApiClient\Model\Location\LocationInfo;
+use Upstain\SabreApiClient\Response\Hotel\Amenity;
+use Upstain\SabreApiClient\Response\Hotel\PropertyType;
 
 class HotelInfo extends Hotel
 {
@@ -16,29 +18,31 @@ class HotelInfo extends Hotel
 
     private string $brandName;
 
-    private float $distance;
+    private ?float $distance = null;
 
-    private string $direction;
+    private ?string $direction = null;
 
-    private string $unitOfMeasure;
+    private ?string $unitOfMeasure = null;
 
-    private string $logo;
+    private ?string $logo = null;
 
-    private string $sabreRating;
+    private ?string $sabreRating = null;
 
-    private int $ordinal;
+    private ?int $ordinal = null;
 
-    private LocationInfo $locationInfo;
+    private ?LocationInfo $locationInfo = null;
 
     /**
-     * @var Amenity[]
+     * @var Amenity[]|null
      */
-    private array $amenities;
+    private ?array $amenities = null;
 
     /**
-     * @var PropertyType[]
+     * @var PropertyType[]|null
      */
     private ?array $propertyTypeInfo = null;
+
+    private ?string $status = null;
 
     /**
      * @param array<string, mixed> $data
@@ -50,21 +54,27 @@ class HotelInfo extends Hotel
                 $this->{\lcfirst($key)} = $info;
             }
         }
-        $this->locationInfo = new LocationInfo($data['LocationInfo']);
-        foreach ($data['Amenities']['Amenity'] as $amenity) {
-            $this->amenities[] = new Amenity($amenity);
+        $this->locationInfo = isset($data['LocationInfo']) ? new LocationInfo($data['LocationInfo']) : null;
+
+        if (isset($data['Amenities'])) {
+            foreach ($data['Amenities']['Amenity'] as $amenity) {
+                $this->amenities[] = new Amenity($amenity);
+            }
         }
+
         if (isset($data['PropertyTypeInfo']['PropertyType'])) {
             foreach ($data['PropertyTypeInfo']['PropertyType'] as $propertyType) {
                 $this->propertyTypeInfo[] = new PropertyType($propertyType);
             }
         }
+
+        $this->status = $data['Status'] ?? null;
     }
 
     /**
-     * @return Amenity[]
+     * @return Amenity[]|null
      */
-    public function getAmenities(): array
+    public function getAmenities(): ?array
     {
         return $this->amenities;
     }
@@ -78,9 +88,9 @@ class HotelInfo extends Hotel
     }
 
     /**
-     * @return LocationInfo
+     * @return LocationInfo|null
      */
-    public function getLocationInfo(): LocationInfo
+    public function getLocationInfo(): ?LocationInfo
     {
         return $this->locationInfo;
     }
@@ -126,50 +136,58 @@ class HotelInfo extends Hotel
     }
 
     /**
-     * @return float
+     * @return float|null
      */
-    public function getDistance(): float
+    public function getDistance(): ?float
     {
         return $this->distance;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getDirection(): string
+    public function getDirection(): ?string
     {
         return $this->direction;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getUnitOfMeasure(): string
+    public function getUnitOfMeasure(): ?string
     {
         return $this->unitOfMeasure;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getLogo(): string
+    public function getLogo(): ?string
     {
         return $this->logo;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getSabreRating(): string
+    public function getSabreRating(): ?string
     {
         return $this->sabreRating;
     }
 
     /**
-     * @return int
+     * @return int|null
      */
-    public function getOrdinal(): int
+    public function getOrdinal(): ?int
     {
         return $this->ordinal;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getStatus(): ?string
+    {
+        return $this->status;
     }
 }
